@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/model/tourism_place.dart';
+import 'package:flutter_application/models/tourism_place.dart';
  
 var informationTextStyle = const TextStyle(fontFamily: 'Oxygen');
  

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/main_screen.dart';
+import './screens/main_screen.dart';
 
 void main() => runApp(const MyApp());
  
@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Wisata Bandung',
       theme: ThemeData(),
       home: const MainScreen(),

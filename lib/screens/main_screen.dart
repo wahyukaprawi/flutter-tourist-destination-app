@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/detail_screen.dart';
-import 'package:flutter_application/model/tourism_place.dart';
+import './detail_screen.dart';
+import '../models/tourism_place.dart';
  
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
