@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Wisata Kota Bandung',
+      title: 'Wisata Bandung',
       theme: ThemeData(),
       home: const MainScreen(),
     );
